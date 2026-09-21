@@ -26,6 +26,12 @@ function countProducts(products) {
 
 console.log(`Total products: ${countProducts(products)}`);
 
+// Commit 6: Add product details
+const productList = [
+  { name: "Laptop", price: 45000 },
+  { name: "Mouse", price: 800 },
+  { name: "Keyboard", price: 1500 }
+];
 
 console.log(productList);
 
@@ -52,18 +58,7 @@ function findProduct(products, name) {
   );
 }
 
-console.log("Search result:", findProduct(productList, "Laptop"));
+x
 
-// Commit 10: Add business summary
-function showSummary(products) {
-  console.log("=== Business Summary ===");
-  console.log(`Business: Tech Store`);
-  console.log(`Owner: ${owner}`);
-  console.log(`Total products: ${products.length}`);
-
-  products.forEach((product) => {
-    console.log(`- ${formatProduct(product)}`);
-  });
-}
 
 showSummary(productList);
