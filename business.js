@@ -26,16 +26,10 @@ function countProducts(products) {
 
 console.log(`Total products: ${countProducts(products)}`);
 
-// Commit 6: Add product details
-const productList = [
-  { name: "Laptop", price: 45000 },
-  { name: "Mouse", price: 800 },
-  { name: "Keyboard", price: 1500 }
-];
 
 console.log(productList);
 
-// Commit 7: Filter expensive products
+// Commit 7: Filter expensive products 
 function getExpensiveProducts(products) {
   return products.filter((product) => product.price >= 1000);
 }
